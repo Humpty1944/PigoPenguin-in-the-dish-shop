@@ -16,7 +16,7 @@
 		21A379092480751000A8CB73 /* Alien_Beam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A379082480751000A8CB73 /* Alien_Beam.mp3 */; };
 		21A3790B2480751400A8CB73 /* Two_Little_Bums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A3790A2480751400A8CB73 /* Two_Little_Bums.mp3 */; };
 		21A3790D2480751C00A8CB73 /* A_Quiet_Thought.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */; };
-		21D4BD46248660A4002A9D66 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D4BD45248660A4002A9D66 /* player.png */; };
+		21D4BD482486650E002A9D66 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D4BD472486650E002A9D66 /* player.png */; };
 		ED26D7B323E2316100B94F3B /* player3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7AE23E2316100B94F3B /* player3.png */; };
 		ED26D7B423E2316100B94F3B /* player4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7AF23E2316100B94F3B /* player4.png */; };
 		ED26D7B723E2316100B94F3B /* player2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7B223E2316100B94F3B /* player2.png */; };
@@ -47,7 +47,7 @@
 		21A379082480751000A8CB73 /* Alien_Beam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alien_Beam.mp3; sourceTree = "<group>"; };
 		21A3790A2480751400A8CB73 /* Two_Little_Bums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Two_Little_Bums.mp3; sourceTree = "<group>"; };
 		21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A_Quiet_Thought.mp3; sourceTree = "<group>"; };
-		21D4BD45248660A4002A9D66 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = ../../../Downloads/PigoPenguin_In_The_Dish_Shop/PigoPenguin_In_The_Dish_Shop/Images/player.png; sourceTree = "<group>"; };
+		21D4BD472486650E002A9D66 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
 		ED26D7AE23E2316100B94F3B /* player3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player3.png; sourceTree = "<group>"; };
 		ED26D7AF23E2316100B94F3B /* player4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player4.png; sourceTree = "<group>"; };
 		ED26D7B223E2316100B94F3B /* player2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2.png; sourceTree = "<group>"; };
@@ -126,13 +126,13 @@
 			children = (
 				EDC1A51E23E1886900533613 /* PlayButton.png */,
 				ED26D7B223E2316100B94F3B /* player2.png */,
-				21D4BD45248660A4002A9D66 /* player.png */,
 				ED26D7AE23E2316100B94F3B /* player3.png */,
 				21A378FA2480629F00A8CB73 /* gameover.png */,
 				21A37900248062AE00A8CB73 /* return.png */,
 				21A378FC248062A500A8CB73 /* pills.png */,
 				21A3790A2480751400A8CB73 /* Two_Little_Bums.mp3 */,
 				21A379082480751000A8CB73 /* Alien_Beam.mp3 */,
+				21D4BD472486650E002A9D66 /* player.png */,
 				21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */,
 				2134E6F4248138AF005AA788 /* plate.png */,
 				ED26D7AF23E2316100B94F3B /* player4.png */,
@@ -203,7 +203,7 @@
 				ED32E76423DF5E4B00DD4135 /* Main.storyboard in Resources */,
 				2134E6F5248138AF005AA788 /* plate.png in Resources */,
 				EDC1A50F23E0709700533613 /* GodReallyBlessUsPNG.png in Resources */,
-				21D4BD46248660A4002A9D66 /* player.png in Resources */,
+				21D4BD482486650E002A9D66 /* player.png in Resources */,
 				ED32E77123DF611A00DD4135 /* MenuScene.sks in Resources */,
 				EDF2CD2523F2DFE7007104BB /* Floor3.sks in Resources */,
 				21A3790B2480751400A8CB73 /* Two_Little_Bums.mp3 in Resources */,
