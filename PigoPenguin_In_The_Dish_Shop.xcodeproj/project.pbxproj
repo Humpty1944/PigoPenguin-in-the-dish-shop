@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2134E6F324812335005AA788 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 2134E6F224812335005AA788 /* player.png */; };
 		2134E6F5248138AF005AA788 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 2134E6F4248138AF005AA788 /* plate.png */; };
 		21A378F72480626300A8CB73 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A378F62480626300A8CB73 /* GameOver.swift */; };
 		21A378F92480628700A8CB73 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 21A378F82480628700A8CB73 /* GameOver.sks */; };
@@ -17,27 +16,28 @@
 		21A379092480751000A8CB73 /* Alien_Beam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A379082480751000A8CB73 /* Alien_Beam.mp3 */; };
 		21A3790B2480751400A8CB73 /* Two_Little_Bums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A3790A2480751400A8CB73 /* Two_Little_Bums.mp3 */; };
 		21A3790D2480751C00A8CB73 /* A_Quiet_Thought.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */; };
+		21D4BD46248660A4002A9D66 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D4BD45248660A4002A9D66 /* player.png */; };
 		ED26D7B323E2316100B94F3B /* player3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7AE23E2316100B94F3B /* player3.png */; };
 		ED26D7B423E2316100B94F3B /* player4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7AF23E2316100B94F3B /* player4.png */; };
 		ED26D7B723E2316100B94F3B /* player2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED26D7B223E2316100B94F3B /* player2.png */; };
 		ED32E75923DF5E4B00DD4135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32E75823DF5E4B00DD4135 /* AppDelegate.swift */; };
-		ED32E75B23DF5E4B00DD4135 /* MainScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED32E75A23DF5E4B00DD4135 /* MainScreen.sks */; };
+		ED32E75B23DF5E4B00DD4135 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED32E75A23DF5E4B00DD4135 /* GameScene.sks */; };
 		ED32E75F23DF5E4B00DD4135 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32E75E23DF5E4B00DD4135 /* GameScene.swift */; };
 		ED32E76123DF5E4B00DD4135 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED32E76023DF5E4B00DD4135 /* GameViewController.swift */; };
 		ED32E76423DF5E4B00DD4135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32E76223DF5E4B00DD4135 /* Main.storyboard */; };
 		ED32E76623DF5E4D00DD4135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED32E76523DF5E4D00DD4135 /* Assets.xcassets */; };
 		ED32E76923DF5E4D00DD4135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED32E76723DF5E4D00DD4135 /* LaunchScreen.storyboard */; };
+		ED32E77123DF611A00DD4135 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ED32E77023DF611A00DD4135 /* MenuScene.sks */; };
 		EDC1A50F23E0709700533613 /* GodReallyBlessUsPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC1A50E23E0709700533613 /* GodReallyBlessUsPNG.png */; };
 		EDC1A51F23E1886A00533613 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC1A51E23E1886900533613 /* PlayButton.png */; };
 		EDC1A52123E1906F00533613 /* MainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1A52023E1906F00533613 /* MainGame.swift */; };
-		EDC1A52323E190DB00533613 /* Floor1.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC1A52223E190DB00533613 /* Floor1.sks */; };
+		EDC1A52323E190DB00533613 /* MainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDC1A52223E190DB00533613 /* MainGame.sks */; };
 		EDF2CD2323F2D80F007104BB /* Floor2.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDF2CD2223F2D80F007104BB /* Floor2.sks */; };
 		EDF2CD2523F2DFE7007104BB /* Floor3.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDF2CD2423F2DFE7007104BB /* Floor3.sks */; };
 		EDF2CD2723F2E307007104BB /* Floor4.sks in Resources */ = {isa = PBXBuildFile; fileRef = EDF2CD2623F2E307007104BB /* Floor4.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2134E6F224812335005AA788 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = ../../../PigoPenguin_In_The_Dish_Shop/PigoPenguin_In_The_Dish_Shop/Images/player.png; sourceTree = "<group>"; };
 		2134E6F4248138AF005AA788 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
 		21A378F62480626300A8CB73 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		21A378F82480628700A8CB73 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
@@ -47,22 +47,24 @@
 		21A379082480751000A8CB73 /* Alien_Beam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alien_Beam.mp3; sourceTree = "<group>"; };
 		21A3790A2480751400A8CB73 /* Two_Little_Bums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Two_Little_Bums.mp3; sourceTree = "<group>"; };
 		21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A_Quiet_Thought.mp3; sourceTree = "<group>"; };
+		21D4BD45248660A4002A9D66 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = ../../../Downloads/PigoPenguin_In_The_Dish_Shop/PigoPenguin_In_The_Dish_Shop/Images/player.png; sourceTree = "<group>"; };
 		ED26D7AE23E2316100B94F3B /* player3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player3.png; sourceTree = "<group>"; };
 		ED26D7AF23E2316100B94F3B /* player4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player4.png; sourceTree = "<group>"; };
 		ED26D7B223E2316100B94F3B /* player2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2.png; sourceTree = "<group>"; };
-		ED32E75523DF5E4B00DD4135 /* Пингвосвин.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Пингвосвин.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED32E75523DF5E4B00DD4135 /* PigoPenguin_In_The_Dish_Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PigoPenguin_In_The_Dish_Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED32E75823DF5E4B00DD4135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED32E75A23DF5E4B00DD4135 /* MainScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScreen.sks; sourceTree = "<group>"; };
+		ED32E75A23DF5E4B00DD4135 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		ED32E75E23DF5E4B00DD4135 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ED32E76023DF5E4B00DD4135 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ED32E76323DF5E4B00DD4135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED32E76523DF5E4D00DD4135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED32E76823DF5E4D00DD4135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED32E76A23DF5E4D00DD4135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED32E77023DF611A00DD4135 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
 		EDC1A50E23E0709700533613 /* GodReallyBlessUsPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GodReallyBlessUsPNG.png; sourceTree = "<group>"; };
 		EDC1A51E23E1886900533613 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 		EDC1A52023E1906F00533613 /* MainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGame.swift; sourceTree = "<group>"; };
-		EDC1A52223E190DB00533613 /* Floor1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Floor1.sks; sourceTree = "<group>"; };
+		EDC1A52223E190DB00533613 /* MainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainGame.sks; sourceTree = "<group>"; };
 		EDF2CD2223F2D80F007104BB /* Floor2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Floor2.sks; sourceTree = "<group>"; };
 		EDF2CD2423F2DFE7007104BB /* Floor3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Floor3.sks; sourceTree = "<group>"; };
 		EDF2CD2623F2E307007104BB /* Floor4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Floor4.sks; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 		ED32E75623DF5E4B00DD4135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED32E75523DF5E4B00DD4135 /* Пингвосвин.app */,
+				ED32E75523DF5E4B00DD4135 /* PigoPenguin_In_The_Dish_Shop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,15 +102,16 @@
 			children = (
 				ED32E77623DF6B5900DD4135 /* Images */,
 				ED32E75823DF5E4B00DD4135 /* AppDelegate.swift */,
-				ED32E75A23DF5E4B00DD4135 /* MainScreen.sks */,
+				ED32E75A23DF5E4B00DD4135 /* GameScene.sks */,
 				ED32E75E23DF5E4B00DD4135 /* GameScene.swift */,
 				ED32E76023DF5E4B00DD4135 /* GameViewController.swift */,
 				ED32E76223DF5E4B00DD4135 /* Main.storyboard */,
 				ED32E76523DF5E4D00DD4135 /* Assets.xcassets */,
 				ED32E76723DF5E4D00DD4135 /* LaunchScreen.storyboard */,
 				ED32E76A23DF5E4D00DD4135 /* Info.plist */,
+				ED32E77023DF611A00DD4135 /* MenuScene.sks */,
 				EDC1A52023E1906F00533613 /* MainGame.swift */,
-				EDC1A52223E190DB00533613 /* Floor1.sks */,
+				EDC1A52223E190DB00533613 /* MainGame.sks */,
 				EDF2CD2223F2D80F007104BB /* Floor2.sks */,
 				EDF2CD2623F2E307007104BB /* Floor4.sks */,
 				EDF2CD2423F2DFE7007104BB /* Floor3.sks */,
@@ -123,6 +126,7 @@
 			children = (
 				EDC1A51E23E1886900533613 /* PlayButton.png */,
 				ED26D7B223E2316100B94F3B /* player2.png */,
+				21D4BD45248660A4002A9D66 /* player.png */,
 				ED26D7AE23E2316100B94F3B /* player3.png */,
 				21A378FA2480629F00A8CB73 /* gameover.png */,
 				21A37900248062AE00A8CB73 /* return.png */,
@@ -132,7 +136,6 @@
 				21A3790C2480751C00A8CB73 /* A_Quiet_Thought.mp3 */,
 				2134E6F4248138AF005AA788 /* plate.png */,
 				ED26D7AF23E2316100B94F3B /* player4.png */,
-				2134E6F224812335005AA788 /* player.png */,
 				EDC1A50E23E0709700533613 /* GodReallyBlessUsPNG.png */,
 			);
 			path = Images;
@@ -155,7 +158,7 @@
 			);
 			name = PigoPenguin_In_The_Dish_Shop;
 			productName = PigoPenguin_In_The_Dish_Shop;
-			productReference = ED32E75523DF5E4B00DD4135 /* Пингвосвин.app */;
+			productReference = ED32E75523DF5E4B00DD4135 /* PigoPenguin_In_The_Dish_Shop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,6 +203,8 @@
 				ED32E76423DF5E4B00DD4135 /* Main.storyboard in Resources */,
 				2134E6F5248138AF005AA788 /* plate.png in Resources */,
 				EDC1A50F23E0709700533613 /* GodReallyBlessUsPNG.png in Resources */,
+				21D4BD46248660A4002A9D66 /* player.png in Resources */,
+				ED32E77123DF611A00DD4135 /* MenuScene.sks in Resources */,
 				EDF2CD2523F2DFE7007104BB /* Floor3.sks in Resources */,
 				21A3790B2480751400A8CB73 /* Two_Little_Bums.mp3 in Resources */,
 				EDC1A51F23E1886A00533613 /* PlayButton.png in Resources */,
@@ -207,14 +212,13 @@
 				ED26D7B723E2316100B94F3B /* player2.png in Resources */,
 				EDF2CD2723F2E307007104BB /* Floor4.sks in Resources */,
 				21A3790D2480751C00A8CB73 /* A_Quiet_Thought.mp3 in Resources */,
-				ED32E75B23DF5E4B00DD4135 /* MainScreen.sks in Resources */,
+				ED32E75B23DF5E4B00DD4135 /* GameScene.sks in Resources */,
 				21A37901248062AE00A8CB73 /* return.png in Resources */,
 				ED32E76623DF5E4D00DD4135 /* Assets.xcassets in Resources */,
 				ED26D7B323E2316100B94F3B /* player3.png in Resources */,
 				21A379092480751000A8CB73 /* Alien_Beam.mp3 in Resources */,
 				21A378FD248062A500A8CB73 /* pills.png in Resources */,
-				2134E6F324812335005AA788 /* player.png in Resources */,
-				EDC1A52323E190DB00533613 /* Floor1.sks in Resources */,
+				EDC1A52323E190DB00533613 /* MainGame.sks in Resources */,
 				EDF2CD2323F2D80F007104BB /* Floor2.sks in Resources */,
 				ED32E76923DF5E4D00DD4135 /* LaunchScreen.storyboard in Resources */,
 				21A378FB248062A000A8CB73 /* gameover.png in Resources */,
@@ -385,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.PP-In-The-Dish-Shop";
-				PRODUCT_NAME = "Пингвосвин";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -404,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.PP-In-The-Dish-Shop";
-				PRODUCT_NAME = "Пингвосвин";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

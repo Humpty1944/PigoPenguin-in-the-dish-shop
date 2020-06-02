@@ -1,3 +1,10 @@
+//
+//  GameOver.swift
+//  PigoPenguin_In_The_Dish_Shop
+//
+//  Created by Назарова on 28.05.2020.
+//  Copyright © 2020 HSE2020185. All rights reserved.
+//
 
 import Foundation
 import UIKit
@@ -68,7 +75,7 @@ class GameOver:SKScene {
                 let location = touch.location(in: self)
                 let touchedNode = atPoint(location)
                 if touchedNode.name == "imageReturn" {
-                   mainGame = GameScene(fileNamed: "MainScreen");
+                   mainGame = GameScene(fileNamed: "GameScene");
                    mainGame.size=CGSize(width: 750, height: 1334)
                     self.view?.presentScene(mainGame, transition: transition)
                 }

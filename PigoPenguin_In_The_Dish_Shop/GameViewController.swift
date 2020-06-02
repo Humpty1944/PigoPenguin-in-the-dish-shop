@@ -1,3 +1,10 @@
+//
+//  GameViewController.swift
+//  PigoPenguin_In_The_Dish_Shop
+//
+//  Created by Sergey Nazarov on 27.01.2020.
+//  Copyright © 2020 HSE2020185. All rights reserved.
+//
 
 import UIKit
 import SpriteKit
@@ -10,7 +17,7 @@ var bgSoundPlayer:AVAudioPlayer?
             
             if let view = self.view as! SKView? {
             
-                if let scene = SKScene(fileNamed: "MainScreen") {
+                if let scene = SKScene(fileNamed: "GameScene") {
                 
                     scene.scaleMode = .aspectFill
                     

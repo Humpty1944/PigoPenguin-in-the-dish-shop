@@ -1,4 +1,10 @@
-
+//
+//  GameScene.swift
+//  PigoPenguin_In_The_Dish_Shop
+//
+//  Created by Sergey Nazarov on 27.01.2020.
+//  Copyright © 2020 HSE2020185. All rights reserved.
+//
 
 import SpriteKit
 import GameplayKit
@@ -30,7 +36,7 @@ class GameScene: SKScene {
             backgroundMusic = SKAudioNode(url: musicURL)
             addChild(backgroundMusic)
         }
-        GameOver.setScoreBegin(1944)
+        GameOver.setScoreBegin(300)
         GameOver.setScoreTimeForEnd(0)
     }
     
@@ -42,7 +48,7 @@ class GameScene: SKScene {
              let location = touch.location(in: self)
              let touchedNode = atPoint(location)
              if touchedNode.name == "newGame" {
-                mainGame = GameScene(fileNamed: "Floor1");
+                mainGame = GameScene(fileNamed: "MainGame");
                 mainGame.size=self.size; self.view?.presentScene(mainGame, transition: transition)
              }
         }

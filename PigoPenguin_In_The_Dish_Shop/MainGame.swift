@@ -1,4 +1,10 @@
-
+//
+//  MainGame.swift
+//  PigoPenguin_In_The_Dish_Shop
+//
+//  Created by Sergey Nazarov on 29.01.2020.
+//  Copyright © 2020 HSE2020185. All rights reserved.
+//
 
 import UIKit
 import SpriteKit
@@ -12,13 +18,18 @@ struct ColliderType{
 
 class MainGame: SKScene,SKPhysicsContactDelegate {
     let motionManager = CMMotionManager();
-    var counter=0
+    var counter=0//{
+//    didSet {
+//        labelScore.text = "Score: \(counter)"
+//    }
+//    }
     
     var time=0
     var transition:SKTransition = SKTransition.push(with: SKTransitionDirection.up, duration: 1)
     var mainGame:SKScene!
-   // var timeCount=Timer()
+    var timeCount=Timer()
     var timeCountForResult=Timer()
+  // var backgroundMusic: SKAudioNode!
     var labelScore: SKLabelNode!
     var player: SKSpriteNode?
     static var isPlay = false
@@ -43,6 +54,7 @@ override func sceneDidLoad() {
             MainGame.isPlay=true
         }
         motionManager.startAccelerometerUpdates()
+       // startCounter()
         startTime()
        }
     func spawnPlayer(){
@@ -67,31 +79,33 @@ override func sceneDidLoad() {
         counter-=1
          labelScore?.text="Score "+String(counter)
          if(counter<0)
-       {   //timeCount.invalidate()
+         {   timeCount.invalidate()
              timeCountForResult.invalidate()
              GameOver.setScoreBegin(time)
              gameOver()
          }
     }
-
+//    func startCounter(){
+//        timeCount = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(decrementCounter), userInfo: nil, repeats: true)
+//    }
     func startTime(){
         timeCountForResult = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timeForResult), userInfo: nil, repeats: true)
     }
     @objc func timeForResult(){
-    
+        print(time)
         time+=1
     }
-//    @objc func decrementCounter(){
-//        counter-=1
-//        labelScore?.text="Score "+String(counter)
-//        if(counter<0)
-//        {   timeCount.invalidate()
-//            timeCountForResult.invalidate()
-//            GameOver.setScoreBegin(time)
-//            gameOver()
-//        }
-//
-//    }
+    @objc func decrementCounter(){
+        counter-=1
+        labelScore?.text="Score "+String(counter)
+        if(counter<0)
+        {   timeCount.invalidate()
+            timeCountForResult.invalidate()
+            GameOver.setScoreBegin(time)
+            gameOver()
+        }
+        
+    }
     
     func gameOver(){
         GameOver.setScore(time)
@@ -159,7 +173,7 @@ override func sceneDidLoad() {
         GameOver.setScoreTimeForEnd(time)
         switch numOfFloor{
         case 1:
-            mainGame = GameScene(fileNamed: "Floor1")
+            mainGame = GameScene(fileNamed: "MainGame")
         case 2:
             mainGame = GameScene(fileNamed: "Floor2")
         case 3:
