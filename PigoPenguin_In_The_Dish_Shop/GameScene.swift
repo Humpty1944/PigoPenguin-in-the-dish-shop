@@ -36,7 +36,7 @@ class GameScene: SKScene {
             backgroundMusic = SKAudioNode(url: musicURL)
             addChild(backgroundMusic)
         }
-        GameOver.setScoreBegin(300)
+        GameOver.setScoreBegin(1944)
         GameOver.setScoreTimeForEnd(0)
     }
     
